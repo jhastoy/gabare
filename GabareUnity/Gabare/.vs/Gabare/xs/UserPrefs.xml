@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{8E9B6344-86C4-282A-7A98-A8D826E63139}|Tests unitaires">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/streamingAssets/listGameobjects.json">
+    <Files>
+      <File FileName="Assets/Scripts/TestButtonRotation.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CarResearch.cs" />
+      <File FileName="Assets/Scripts/changeView.cs" Line="9" Column="15" />
+      <File FileName="Assets/Scripts/list_Objects.cs" />
+      <File FileName="Assets/Scripts/JsonDemon.cs" Line="25" Column="5" />
+      <File FileName="Assets/streamingAssets/listGameobjects.json" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Gabare" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="Assets" expanded="True" selected="True">
+                <Node name="Scripts" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
