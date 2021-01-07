@@ -56,7 +56,7 @@ public class List_Objects : MonoBehaviour
 	[System.Serializable]
 	public class ObjetList
 	{
-		public Objet[] objet;
+		public List<Objet> objet;
 	}
 
 	//public TextAsset textJSON;
@@ -85,8 +85,7 @@ public class List_Objects : MonoBehaviour
 		GameObject buttonTemplate = transform.GetChild(0).gameObject;
 		GameObject g;
 
-		
-		int N = myObjetsList.objet.Length;
+		int N = myObjetsList.objet.Count;
 
 		for (int i = 0; i < N; i++)
 		{
@@ -107,11 +106,11 @@ public class List_Objects : MonoBehaviour
 		////////////////////////////// AJOUT D'UN OBJET //////////////////////////////
         
 
-        /*
+        
 		Objet monobj = new Objet("Papi", "Velo", 12, 14, 35);
-		myObjetsList.objet[3] = monobj;
+		myObjetsList.objet.Add(monobj);
 		jsonString = JsonUtility.ToJson(myObjetsList);
-		File.WriteAllText(chemin, jsonString); */
+		File.WriteAllText(chemin, jsonString); 
 	}
 
 	void ItemClicked(int itemIndex)
