@@ -341,3 +341,4 @@
 /Users/noemiemathio/Documents/GitHub/gabare/GabareUnity/Gabare/obj/Debug/Assembly-CSharp.csproj.CopyComplete
 /Users/noemiemathio/Documents/GitHub/gabare/GabareUnity/Gabare/obj/Debug/Assembly-CSharp.dll
 /Users/noemiemathio/Documents/GitHub/gabare/GabareUnity/Gabare/obj/Debug/Assembly-CSharp.pdb
+/Users/noemiemathio/Documents/GitHub/gabare/GabareUnity/Gabare/Temp/bin/Debug/nunit.framework.dll
