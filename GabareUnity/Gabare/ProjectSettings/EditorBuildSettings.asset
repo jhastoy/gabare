@@ -5,16 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/Home.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/MyCar.unity
+    guid: e15cee19622454d7b9edae3b1327433d
+  - enabled: 1
     path: Assets/Scenes/Personnalisation.unity
     guid: 9f36de458ed074d64babca9a2a2a6e34
   - enabled: 1
     path: Assets/Scenes/ListElementsToAdd.unity
     guid: 904c2878ae98b40a79ab6ae414ef2f76
-  - enabled: 1
-    path: Assets/Scenes/Home.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Param.unity
     guid: e06843e15730e48ccb47ab6e577034db
   m_configObjects: {}

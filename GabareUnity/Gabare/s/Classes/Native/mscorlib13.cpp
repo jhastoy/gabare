@@ -12275,6 +12275,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UInt16_ToString_mCD21CDBE273387A216
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * NumberFormatInfo_GetInstance_mE5108A48B8BFDB2158C05951FACC08AFB09FDDBB (RuntimeObject* ___formatProvider0, const RuntimeMethod* method);
 // System.String System.UInt16::ToString(System.IFormatProvider)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UInt16_ToString_m960B640F8B0C181A9185FCD0921B2F85106FE336 (uint16_t* __this, RuntimeObject* ___provider0, const RuntimeMethod* method);
+// System.String System.UInt16::ToString(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UInt16_ToString_mB9BF3213F6AC036243B6AB79B0C98C4C727FB6E1 (uint16_t* __this, String_t* ___format0, const RuntimeMethod* method);
 // System.String System.UInt16::ToString(System.String,System.IFormatProvider)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UInt16_ToString_m1A3B311F92ADC0190FFB4B1CAB6E41D3499B1558 (uint16_t* __this, String_t* ___format0, RuntimeObject* ___provider1, const RuntimeMethod* method);
 // System.UInt16 System.UInt16::Parse(System.String,System.Globalization.NumberStyles,System.Globalization.NumberFormatInfo)
@@ -21456,6 +21458,23 @@ IL2CPP_EXTERN_C  String_t* UInt16_ToString_m960B640F8B0C181A9185FCD0921B2F85106F
 	int32_t _offset = 1;
 	uint16_t* _thisAdjusted = reinterpret_cast<uint16_t*>(__this + _offset);
 	return UInt16_ToString_m960B640F8B0C181A9185FCD0921B2F85106FE336(_thisAdjusted, ___provider0, method);
+}
+// System.String System.UInt16::ToString(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UInt16_ToString_mB9BF3213F6AC036243B6AB79B0C98C4C727FB6E1 (uint16_t* __this, String_t* ___format0, const RuntimeMethod* method)
+{
+	{
+		int32_t L_0 = *((uint16_t*)__this);
+		String_t* L_1 = ___format0;
+		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_2 = NumberFormatInfo_get_CurrentInfo_m604B9BFDE58530F94955E0EF1A523D37EA87DF02(/*hidden argument*/NULL);
+		String_t* L_3 = Number_FormatUInt32_m9F1AADB85C4AA9B92ADB5A9C0AE2EB20BF9E0104(L_0, L_1, L_2, /*hidden argument*/NULL);
+		return L_3;
+	}
+}
+IL2CPP_EXTERN_C  String_t* UInt16_ToString_mB9BF3213F6AC036243B6AB79B0C98C4C727FB6E1_AdjustorThunk (RuntimeObject * __this, String_t* ___format0, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	uint16_t* _thisAdjusted = reinterpret_cast<uint16_t*>(__this + _offset);
+	return UInt16_ToString_mB9BF3213F6AC036243B6AB79B0C98C4C727FB6E1(_thisAdjusted, ___format0, method);
 }
 // System.String System.UInt16::ToString(System.String,System.IFormatProvider)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* UInt16_ToString_m1A3B311F92ADC0190FFB4B1CAB6E41D3499B1558 (uint16_t* __this, String_t* ___format0, RuntimeObject* ___provider1, const RuntimeMethod* method)

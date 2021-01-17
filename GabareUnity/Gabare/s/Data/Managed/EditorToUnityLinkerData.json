@@ -21,9 +21,10 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
                 "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
             ]
         },
         {
@@ -67,9 +68,10 @@
             "fullManagedTypeName": "UnityEngine.Material",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
                 "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
             ]
         },
         {
@@ -106,9 +108,10 @@
             "fullManagedTypeName": "UnityEngine.Shader",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
                 "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
             ]
         },
         {
@@ -124,9 +127,10 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
                 "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
             ]
         },
         {
@@ -142,9 +146,10 @@
             "fullManagedTypeName": "UnityEngine.TextAsset",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
                 "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
             ]
         },
         {
@@ -153,9 +158,10 @@
             "fullManagedTypeName": "UnityEditor.MonoScript",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
                 "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
             ]
         },
         {
@@ -164,9 +170,10 @@
             "fullManagedTypeName": "UnityEngine.Object",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
                 "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
             ]
         },
         {
@@ -196,9 +203,10 @@
             "fullManagedTypeName": "",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
                 "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
             ]
         },
         {
@@ -228,9 +236,10 @@
             "fullManagedTypeName": "UnityEngine.AudioBehaviour",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
                 "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
             ]
         },
         {
@@ -239,207 +248,10 @@
             "fullManagedTypeName": "UnityEngine.AudioListener",
             "moduleName": "Audio",
             "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
                 "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Canvas",
-            "fullManagedTypeName": "UnityEngine.Canvas",
-            "moduleName": "UI",
-            "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
-                "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Font",
-            "fullManagedTypeName": "UnityEngine.Font",
-            "moduleName": "TextRendering",
-            "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
-                "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Behaviour",
-            "fullManagedTypeName": "UnityEngine.Behaviour",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
-                "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Sprite",
-            "fullManagedTypeName": "UnityEngine.Sprite",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
-                "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Texture2D",
-            "fullManagedTypeName": "UnityEngine.Texture2D",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
-                "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "RenderSettings",
-            "fullManagedTypeName": "UnityEngine.RenderSettings",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
-                "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Transform",
-            "fullManagedTypeName": "UnityEngine.Transform",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
-                "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Light",
-            "fullManagedTypeName": "UnityEngine.Light",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
-                "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Camera",
-            "fullManagedTypeName": "UnityEngine.Camera",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
-                "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Texture",
-            "fullManagedTypeName": "UnityEngine.Texture",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
-                "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "Component",
-            "fullManagedTypeName": "UnityEngine.Component",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
-                "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "GameObject",
-            "fullManagedTypeName": "UnityEngine.GameObject",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
-                "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "",
-            "nativeClass": "NavMeshSettings",
-            "fullManagedTypeName": "",
-            "moduleName": "AI",
-            "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
-                "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "MonoBehaviour",
-            "fullManagedTypeName": "UnityEngine.MonoBehaviour",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
-                "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "RectTransform",
-            "fullManagedTypeName": "UnityEngine.RectTransform",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
-                "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "CanvasRenderer",
-            "fullManagedTypeName": "UnityEngine.CanvasRenderer",
-            "moduleName": "UI",
-            "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
-                "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "",
-            "nativeClass": "LevelGameManager",
-            "fullManagedTypeName": "",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
-                "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "LightmapSettings",
-            "fullManagedTypeName": "UnityEngine.LightmapSettings",
-            "moduleName": "Core",
-            "usedInScenes": [
-                "Assets/Scenes/ListElementsToAdd.unity",
-                "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
             ]
         },
         {
@@ -448,7 +260,18 @@
             "fullManagedTypeName": "UnityEngine.Collider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/Home.unity"
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/Personnalisation.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MeshCollider",
+            "fullManagedTypeName": "UnityEngine.MeshCollider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/Personnalisation.unity"
             ]
         },
         {
@@ -457,7 +280,44 @@
             "fullManagedTypeName": "UnityEngine.BoxCollider",
             "moduleName": "Physics",
             "usedInScenes": [
-                "Assets/Scenes/Home.unity"
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/Personnalisation.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Canvas",
+            "fullManagedTypeName": "UnityEngine.Canvas",
+            "moduleName": "UI",
+            "usedInScenes": [
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Font",
+            "fullManagedTypeName": "UnityEngine.Font",
+            "moduleName": "TextRendering",
+            "usedInScenes": [
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Behaviour",
+            "fullManagedTypeName": "UnityEngine.Behaviour",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
             ]
         },
         {
@@ -467,7 +327,43 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
+                "Assets/Scenes/Personnalisation.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Sprite",
+            "fullManagedTypeName": "UnityEngine.Sprite",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Texture2D",
+            "fullManagedTypeName": "UnityEngine.Texture2D",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RenderSettings",
+            "fullManagedTypeName": "UnityEngine.RenderSettings",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
             ]
         },
         {
@@ -477,7 +373,67 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Home.unity",
-                "Assets/Scenes/Param.unity"
+                "Assets/Scenes/Personnalisation.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Transform",
+            "fullManagedTypeName": "UnityEngine.Transform",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Light",
+            "fullManagedTypeName": "UnityEngine.Light",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Camera",
+            "fullManagedTypeName": "UnityEngine.Camera",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Texture",
+            "fullManagedTypeName": "UnityEngine.Texture",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Component",
+            "fullManagedTypeName": "UnityEngine.Component",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
             ]
         },
         {
@@ -486,7 +442,44 @@
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Home.unity"
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/Personnalisation.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "GameObject",
+            "fullManagedTypeName": "UnityEngine.GameObject",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "",
+            "nativeClass": "NavMeshSettings",
+            "fullManagedTypeName": "",
+            "moduleName": "AI",
+            "usedInScenes": [
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "MonoBehaviour",
+            "fullManagedTypeName": "UnityEngine.MonoBehaviour",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
             ]
         },
         {
@@ -495,7 +488,56 @@
             "fullManagedTypeName": "UnityEngine.MeshFilter",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Home.unity"
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/Personnalisation.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RectTransform",
+            "fullManagedTypeName": "UnityEngine.RectTransform",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "CanvasRenderer",
+            "fullManagedTypeName": "UnityEngine.CanvasRenderer",
+            "moduleName": "UI",
+            "usedInScenes": [
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "",
+            "nativeClass": "LevelGameManager",
+            "fullManagedTypeName": "",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "LightmapSettings",
+            "fullManagedTypeName": "UnityEngine.LightmapSettings",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/MyCar.unity",
+                "Assets/Scenes/Personnalisation.unity",
+                "Assets/Scenes/ListElementsToAdd.unity"
             ]
         },
         {
@@ -504,20 +546,30 @@
             "fullManagedTypeName": "UnityEngine.LightingSettings",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Home.unity"
+                "Assets/Scenes/Home.unity",
+                "Assets/Scenes/MyCar.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "SphereCollider",
+            "fullManagedTypeName": "UnityEngine.SphereCollider",
+            "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/Personnalisation.unity"
             ]
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "CarResearch",
+            "fullManagedTypeName": "AddGameObjectTest",
             "moduleName": "",
             "usedInScenes": []
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "ClickButton",
+            "fullManagedTypeName": "ChangeView",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -525,6 +577,34 @@
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
             "fullManagedTypeName": "List_Objects",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SaveModelCar",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "SwipeRotate",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Test",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "turnOver",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -564,13 +644,6 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Unity.TextMeshPro.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "TMPro.TextMeshPro",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.EventSystems.EventSystem",
@@ -601,6 +674,13 @@
         {
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.ContentSizeFitter",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.GraphicRaycaster",
             "moduleName": "",
             "usedInScenes": []
@@ -616,6 +696,20 @@
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.UI.InputField",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Mask",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.ScrollRect",
             "moduleName": "",
             "usedInScenes": []
         },
