@@ -25,8 +25,14 @@ public class ChangeView : MonoBehaviour
             if (raycastResults.Count > 0 && raycastResults.Last().gameObject.name==gameObject.name)
             {
                 SceneManager.LoadScene(SceneToLoad);
+
+                if (GameObject.Find("DataToSave") != null)
+                {
+                    DontDestroyOnLoad(GameObject.Find("DataToSave"));
+                }
             }
-        } 
+        }
+        
 
         /*if (Input.touchCount > 0)
         {

@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 using System.IO;
+using UnityEngine.SceneManagement;
 
 public static class ButtonExtension
 {
@@ -16,8 +17,11 @@ public static class ButtonExtension
 }
 
 
+
 public class List_Objects : MonoBehaviour
 {
+	//public GameObject Passeur;
+
 	[Serializable]
 	public struct Objects
 	{
@@ -40,6 +44,7 @@ public class List_Objects : MonoBehaviour
 		public int Longueur;
 		public int Largeur;
 		public int Hauteur;
+		
 
 		public Objet(string _nom, string _description, int _longueur, int _largeur, int _hauteur)
         {
@@ -106,17 +111,35 @@ public class List_Objects : MonoBehaviour
 		////////////////////////////// AJOUT D'UN OBJET //////////////////////////////
         
 
-        
-		Objet monobj = new Objet("Papi", "Velo", 12, 14, 35);
+        /*
+		Objet monobj = new Objet("telr", "TICTAC", 12, 14, 35);
 		myObjetsList.objet.Add(monobj);
 		jsonString = JsonUtility.ToJson(myObjetsList);
-		File.WriteAllText(chemin, jsonString); 
+		File.WriteAllText(chemin, jsonString); */
 	}
 
 	void ItemClicked(int itemIndex)
 	{
-		Debug.Log("------------item " + itemIndex + " clicked---------------");
-		Debug.Log("name " + myObjetsList.objet[itemIndex].Nom);
-		Debug.Log("desc " + myObjetsList.objet[itemIndex].Description);
+		double localx;
+		double localy;
+		double localz;
+
+        if (myObjetsList.objet[itemIndex].Nom == "Velo")
+        {
+			localx = -1.83;
+			localy = -0.24;
+			localz = -6.47;
+        }
+        else
+        {
+			localx = 0;
+			localy = 0;
+			localz = 0;
+        }
+
+		GameObject.Find("DataToSave").GetComponent<ObjetOnCar>().ItemPotentielInfo(myObjetsList.objet[itemIndex].Nom, 3, 3, 3, localx, localy, localz, 0);
+		SceneManager.LoadScene("Personnalisation");
+		DontDestroyOnLoad(GameObject.Find("DataToSave"));
 	}
 }
+

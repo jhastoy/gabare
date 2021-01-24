@@ -1,0 +1,29 @@
+{
+    "objet": [
+    {
+        "Nom":"Velo",
+        "Description" : "Ceci est un vélo",
+        "Longueur": 150,
+        "Largeur":40,
+        "Hauteur":110
+    },
+    {
+        "Nom":"Cariole",
+        "Description" : "Ceci est une cariole",
+        "Longueur": 250,
+        "Largeur":150,
+        "Hauteur":60
+    },
+    {
+        "Nom":"Rangement toit",
+        "Description" : "Ceci est un rangement à mettre sur le toit",
+        "Longueur": 150,
+        "Largeur":90,
+        "Hauteur":70
+    }
+    
+    
+    
+    
+    ]
+}

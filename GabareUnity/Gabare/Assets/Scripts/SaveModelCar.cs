@@ -8,7 +8,6 @@ using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-
 public class SaveModelCar : MonoBehaviour
 {
     public GameObject InputLongueur, Inputlargeur, InputHauteur;
@@ -20,6 +19,8 @@ public class SaveModelCar : MonoBehaviour
 
 
     DimensionCar dimCar = new DimensionCar();
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -79,7 +80,7 @@ public class SaveModelCar : MonoBehaviour
             {
                 jsongString = JsonUtility.ToJson(dimCar);
                 File.WriteAllText(chemin, jsongString);
-                SceneManager.LoadSceneAsync("Home");
+                //SceneManager.LoadSceneAsync("Home");
 
             }
         }

@@ -1,23 +1,23 @@
 ﻿<Properties StartupConfiguration="{8E9B6344-86C4-282A-7A98-A8D826E63139}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SaveModelCar.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ViewCar.cs">
     <Files>
       <File FileName="Assets/Scripts/CarResearch.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/changeView.cs" Line="28" Column="1" />
-      <File FileName="Assets/Scripts/list_Objects.cs" Line="110" Column="3" />
-      <File FileName="Assets/streamingAssets/listObjets.txt" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/changeView.cs" Line="31" Column="1" />
+      <File FileName="Assets/Scripts/list_Objects.cs" Line="131" Column="19" />
+      <File FileName="Assets/Scripts/SaveModelCar.cs" Line="56" Column="14" />
+      <File FileName="Assets/Scripts/AddGameObjectTest.cs" Line="90" Column="25" />
+      <File FileName="Assets/ObjetOnCar.cs" Line="23" Column="6" />
       <File FileName="Assets/Scripts/SwipeRotate.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/AddGameObjectTest.cs" Line="39" Column="72" />
-      <File FileName="Assets/Scripts/SaveModelCar.cs" Line="82" Column="44" />
+      <File FileName="Assets/ViewCar.cs" Line="4" Column="12" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Gabare" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="SaveModelCar.cs" selected="True" />
-              </Node>
+              <Node name="Scripts" expanded="True" />
               <Node name="streamingAssets" expanded="True" />
+              <Node name="ViewCar.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -26,7 +26,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="868b56d6-cd96-429f-b329-180fb51ed567" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="cd12cfb8-44eb-405c-9e00-342ab180e62d" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
