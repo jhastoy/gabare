@@ -40,20 +40,7 @@ public class AddGameObjectTest : MonoBehaviour
 
             if (Physics.Raycast(ray, out hit))
             {
-                /*
-                if (hit.collider.transform.parent.name == ajoutToit.name)
-                {
-                    ajoutToit.transform.GetChild(0).gameObject.GetComponent<Renderer>().material.color = Color.yellow;
-                    ajoutToit.transform.GetChild(1).gameObject.GetComponent<Renderer>().material.color = Color.yellow;
-                }
-                if (hit.collider.transform.parent.name == ajoutCoffre.name)
-                {
-                    Vector3 newV = new Vector3(coffre.GetComponent<Transform>().position.x, coffre.GetComponent<Transform>().position.y, coffre.GetComponent<Transform>().position.z);
-                    velo = Instantiate(velo, gameObject.transform);
-                    velo.GetComponent<Transform>().position = newV;
-                    velo.GetComponent<Transform>().Rotate(0, 90, 0, 0);
-                }*/
-
+               
                 if (hit.collider.transform.parent.name == ajoutToit.name)
                 {
                     if (GameObject.Find("DataToSave") == null)

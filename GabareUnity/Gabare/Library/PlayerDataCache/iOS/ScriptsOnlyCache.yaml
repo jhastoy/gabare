@@ -3,7 +3,9 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AddGameObjectTest
     - ChangeView
+    - DeleteObj
     - List_Objects
+    - List_View_Obj_Car
     - ObjetOnCar
     - SaveModelCar
     - SwipeRotate
@@ -280,6 +282,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12048}
     - Class: 114
+      Script: {instanceID: 12160}
+    - Class: 114
       Script: {instanceID: 12492}
     - Class: 114
       Script: {instanceID: 12640}
@@ -288,6 +292,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12970}
     - Class: 114
+      Script: {instanceID: 13078}
+    - Class: 114
       Script: {instanceID: 13408}
     - Class: 114
       Script: {instanceID: 13462}
@@ -295,6 +301,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13536}
     - Class: 114
       Script: {instanceID: 13946}
+    - Class: 114
+      Script: {instanceID: 80816}
+    - Class: 114
+      Script: {instanceID: 83550}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -998,6 +1008,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ViewCar
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: List_View_Obj_Car
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DeleteObj
   platform: 9
   scenePathNames:
   - Assets/Scenes/Home.unity

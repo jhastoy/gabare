@@ -101,6 +101,8 @@
     <Compile Include="Assets/Scripts/List_Objects.cs" />
     <Compile Include="Assets/Scripts/ObjetOnCar.cs" />
     <Compile Include="Assets/ViewCar.cs" />
+    <Compile Include="Assets/Scripts/List_View_Obj_Car.cs" />
+    <Compile Include="Assets/Scripts/DeleteObj.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />

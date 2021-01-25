@@ -12,7 +12,6 @@ public class ViewCar : MonoBehaviour
 
         if (GameObject.Find("DataToSave") != null)
         {
-            print("nb" + GameObject.Find("DataToSave").GetComponent<ObjetOnCar>().ItemsOnCars.Count);
                 foreach (ItemOnCar item in GameObject.Find("DataToSave").GetComponent<ObjetOnCar>().ItemsOnCars)
                 {
                 GameObject newGo = Instantiate(Bicycle, new Vector3((float)item.Localx, (float)item.Localy, (float)item.Localz), Quaternion.identity);
@@ -22,6 +21,7 @@ public class ViewCar : MonoBehaviour
             
         }
     }
-
     
+
+
 }

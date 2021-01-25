@@ -8,11 +8,7 @@ public class ObjetOnCar : MonoBehaviour
     public List<ItemOnCar> ItemsOnCars = new List<ItemOnCar>();
     public string where;
 
-    private void Update()
-    {
-        Debug.Log("Nombre de clic : " + ItemsOnCars.Count);
-        Debug.Log(where);
-    }
+   
 
     public void ItemPotentielInfo(string name, int longueur, int largeur, int hauteur, double localx, double localy, double localz, float rotation)
     {

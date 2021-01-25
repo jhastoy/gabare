@@ -20,7 +20,7 @@ IL2CPP_EXTERN_C_END
 
 
 extern const Il2CppMethodSpec g_Il2CppMethodSpecTable[];
-const Il2CppMethodSpec g_Il2CppMethodSpecTable[8890] = 
+const Il2CppMethodSpec g_Il2CppMethodSpecTable[8891] = 
 {
 	{ 333, -1, 1 } /* System.Void System.ThrowHelper::IfNullAndNullsAreIllegalThenThrow<System.Object>(System.Object,System.ExceptionArgument) */,
 	{ 337, -1, 1 } /* System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Array::AsReadOnly<System.Object>(T[]) */,
@@ -964,9 +964,9 @@ const Il2CppMethodSpec g_Il2CppMethodSpecTable[8890] =
 	{ 15038, 1, -1 } /* T TMPro.TMP_TextProcessingStack`1<System.Object>::PreviousItem() */,
 	{ 15112, -1, 1 } /* System.Int32 TMPro.TMPro_ExtensionMethods::FindInstanceID<System.Object>(System.Collections.Generic.List`1<T>,T) */,
 	{ 15524, -1, 1 } /* T UnityEngine.JsonUtility::FromJson<System.Object>(System.String) */,
-	{ 15617, -1, 1 } /* System.Void ButtonExtension::AddEventListener<System.Object>(UnityEngine.UI.Button,T,System.Action`1<T>) */,
-	{ 15618, 1, -1 } /* System.Void ButtonExtension/<>c__DisplayClass0_0`1<System.Object>::.ctor() */,
-	{ 15619, 1, -1 } /* System.Void ButtonExtension/<>c__DisplayClass0_0`1<System.Object>::<AddEventListener>b__0() */,
+	{ 15620, -1, 1 } /* System.Void ButtonExtension::AddEventListener<System.Object>(UnityEngine.UI.Button,T,System.Action`1<T>) */,
+	{ 15621, 1, -1 } /* System.Void ButtonExtension/<>c__DisplayClass0_0`1<System.Object>::.ctor() */,
+	{ 15622, 1, -1 } /* System.Void ButtonExtension/<>c__DisplayClass0_0`1<System.Object>::<AddEventListener>b__0() */,
 	{ 8389, 53, -1 } /* System.Void System.Collections.ObjectModel.ReadOnlyCollection`1<System.Exception>::.ctor(System.Collections.Generic.IList`1<T>) */,
 	{ 8695, 53, -1 } /* System.Void System.Collections.Generic.List`1<System.Exception>::.ctor(System.Collections.Generic.IEnumerable`1<T>) */,
 	{ 8695, 54, -1 } /* System.Void System.Collections.Generic.List`1<System.Runtime.ExceptionServices.ExceptionDispatchInfo>::.ctor(System.Collections.Generic.IEnumerable`1<T>) */,
@@ -2298,6 +2298,7 @@ const Il2CppMethodSpec g_Il2CppMethodSpecTable[8890] =
 	{ 11048, 25, -1 } /* System.Void UnityEngine.Events.UnityAction`1<System.String>::.ctor(System.Object,System.IntPtr) */,
 	{ 11053, 25, -1 } /* System.Void UnityEngine.Events.UnityEvent`1<System.String>::AddListener(UnityEngine.Events.UnityAction`1<!0>) */,
 	{ 11054, 25, -1 } /* System.Void UnityEngine.Events.UnityEvent`1<System.String>::RemoveListener(UnityEngine.Events.UnityAction`1<!0>) */,
+	{ 8728, 491, -1 } /* System.Boolean System.Collections.Generic.List`1<ItemOnCar>::Remove(!0) */,
 	{ 8720, 494, -1 } /* System.Collections.Generic.List`1/Enumerator<!0> System.Collections.Generic.List`1<SimpleJSON.JSONNode>::GetEnumerator() */,
 	{ 8698, 494, -1 } /* System.Int32 System.Collections.Generic.List`1<SimpleJSON.JSONNode>::get_Count() */,
 	{ 8701, 494, -1 } /* !0 System.Collections.Generic.List`1<SimpleJSON.JSONNode>::get_Item(System.Int32) */,
@@ -2334,7 +2335,7 @@ const Il2CppMethodSpec g_Il2CppMethodSpecTable[8890] =
 	{ 10571, -1, 8 } /* !!0 UnityEngine.Component::GetComponent<UnityEngine.UI.Text>() */,
 	{ 8701, 490, -1 } /* !0 System.Collections.Generic.List`1<List_Objects/Objet>::get_Item(System.Int32) */,
 	{ 609, 0, -1 } /* System.Void System.Action`1<System.Int32>::.ctor(System.Object,System.IntPtr) */,
-	{ 15617, -1, 0 } /* System.Void ButtonExtension::AddEventListener<System.Int32>(UnityEngine.UI.Button,T,System.Action`1<T>) */,
+	{ 15620, -1, 0 } /* System.Void ButtonExtension::AddEventListener<System.Int32>(UnityEngine.UI.Button,T,System.Action`1<T>) */,
 	{ 10571, -1, 617 } /* !!0 UnityEngine.Component::GetComponent<UnityEngine.Light>() */,
 	{ 8698, 491, -1 } /* System.Int32 System.Collections.Generic.List`1<ItemOnCar>::get_Count() */,
 	{ 8706, 491, -1 } /* System.Void System.Collections.Generic.List`1<ItemOnCar>::Add(!0) */,
@@ -3582,8 +3583,8 @@ const Il2CppMethodSpec g_Il2CppMethodSpecTable[8890] =
 	{ 6154, 133, -1 } /* System.Void System.Threading.Tasks.Task`1/<>c<System.Threading.Tasks.VoidTaskResult>::.cctor() */,
 	{ 6155, 133, -1 } /* System.Void System.Threading.Tasks.Task`1/<>c<System.Threading.Tasks.VoidTaskResult>::.ctor() */,
 	{ 6156, 133, -1 } /* System.Threading.Tasks.Task`1<TResult> System.Threading.Tasks.Task`1/<>c<System.Threading.Tasks.VoidTaskResult>::<.cctor>b__64_0(System.Threading.Tasks.Task`1<System.Threading.Tasks.Task>) */,
-	{ 15618, 0, -1 } /* System.Void ButtonExtension/<>c__DisplayClass0_0`1<System.Int32>::.ctor() */,
-	{ 15619, 0, -1 } /* System.Void ButtonExtension/<>c__DisplayClass0_0`1<System.Int32>::<AddEventListener>b__0() */,
+	{ 15621, 0, -1 } /* System.Void ButtonExtension/<>c__DisplayClass0_0`1<System.Int32>::.ctor() */,
+	{ 15622, 0, -1 } /* System.Void ButtonExtension/<>c__DisplayClass0_0`1<System.Int32>::<AddEventListener>b__0() */,
 	{ 9640, 622, -1 } /* System.Void System.Linq.Enumerable/<>c__DisplayClass6_0`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::.ctor() */,
 	{ 9641, 622, -1 } /* System.Boolean System.Linq.Enumerable/<>c__DisplayClass6_0`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>::<CombinePredicates>b__0(TSource) */,
 	{ 13374, 362, -1 } /* System.Void UnityEngine.UI.CoroutineTween.TweenRunner`1/<Start>d__2<UnityEngine.UI.CoroutineTween.ColorTween>::.ctor(System.Int32) */,
@@ -8909,7 +8910,7 @@ const Il2CppMethodSpec g_Il2CppMethodSpecTable[8890] =
 	{ 338, -1, 747 } /* System.Void System.Array::Resize<T>(!!0[]&,System.Int32) */,
 	{ 8701, 478, -1 } /* !0 System.Collections.Generic.List`1<T>::get_Item(System.Int32) */,
 	{ 8698, 478, -1 } /* System.Int32 System.Collections.Generic.List`1<T>::get_Count() */,
-	{ 15618, 488, -1 } /* System.Void ButtonExtension/<>c__DisplayClass0_0`1<T>::.ctor() */,
-	{ 15619, 488, -1 } /* System.Void ButtonExtension/<>c__DisplayClass0_0`1<T>::<AddEventListener>b__0() */,
+	{ 15621, 488, -1 } /* System.Void ButtonExtension/<>c__DisplayClass0_0`1<T>::.ctor() */,
+	{ 15622, 488, -1 } /* System.Void ButtonExtension/<>c__DisplayClass0_0`1<T>::<AddEventListener>b__0() */,
 	{ 610, 489, -1 } /* System.Void System.Action`1<T>::Invoke(!0) */,
 };
