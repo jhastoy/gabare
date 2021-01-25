@@ -84,7 +84,6 @@ public class List_Objects : MonoBehaviour
 		chemin = Application.streamingAssetsPath + "/listGameobjects.json";
 		jsonString = File.ReadAllText(chemin);
 		myObjetsList = JsonUtility.FromJson<ObjetList>(jsonString);
-		//print(myObjetsList.objet.Length);
 
 
 		GameObject buttonTemplate = transform.GetChild(0).gameObject;

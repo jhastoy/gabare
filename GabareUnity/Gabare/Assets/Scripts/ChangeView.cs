@@ -30,6 +30,10 @@ public class ChangeView : MonoBehaviour
                 {
                     DontDestroyOnLoad(GameObject.Find("DataToSave"));
                 }
+                if (GameObject.Find("CarDim") != null)
+                {
+                    DontDestroyOnLoad(GameObject.Find("DataToSave"));
+                }
             }
         }
         

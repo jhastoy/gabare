@@ -39,12 +39,10 @@ public class List_View_Obj_Car : MonoBehaviour
 
 	void ItemClicked(ItemOnCar item2)
 	{
-		print("HELLO");
 			foreach (ItemOnCar item in GameObject.Find("DataToSave").GetComponent<ObjetOnCar>().ItemsOnCars)
 			{
 				if (item.Name == item2.Name)
 				{
-				print("nutello");
 					if (item2.Place == "Roof")
 					{
 						Button_Roof.SetActive(true);

@@ -38,7 +38,18 @@ public class SaveModelCar : MonoBehaviour
             InputLongueur.GetComponent<InputField>().text = dimCar.Longueur.ToString();
             Inputlargeur.GetComponent<InputField>().text = dimCar.Largeur.ToString();
             InputHauteur.GetComponent<InputField>().text = dimCar.Hauteur.ToString();
-            
+            if (GameObject.Find("CarDim") != null)
+            {
+                GameObject.Find("CarDim").GetComponent<CarDim>().CarDimension(dimCar.Longueur, dimCar.Largeur, dimCar.Hauteur);
+            }
+            else
+            {
+                GameObject go = new GameObject();
+                go.name = "CarDim";
+                go.AddComponent<CarDim>();
+                go.GetComponent<CarDim>().CarDimension(dimCar.Longueur, dimCar.Largeur, dimCar.Hauteur);
+            }
+
         }
 
     }
@@ -61,12 +72,6 @@ public class SaveModelCar : MonoBehaviour
         }
 
 
-        if (Input.GetMouseButtonDown(0))
-        {
-            jsongString = JsonUtility.ToJson(dimCar);
-            File.WriteAllText(chemin, jsongString);
-        }
-
 
         if (Input.touchCount > 0)
         {
@@ -78,6 +83,7 @@ public class SaveModelCar : MonoBehaviour
 
             if (raycastResults.Count > 0 && raycastResults.Last().gameObject.name == gameObject.name)
             {
+                GameObject.Find("CarDim").GetComponent<CarDim>().CarDimension(dimCar.Longueur, dimCar.Largeur, dimCar.Hauteur);
                 jsongString = JsonUtility.ToJson(dimCar);
                 File.WriteAllText(chemin, jsongString);
                 //SceneManager.LoadSceneAsync("Home");
