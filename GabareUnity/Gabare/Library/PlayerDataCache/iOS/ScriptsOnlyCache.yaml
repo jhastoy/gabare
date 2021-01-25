@@ -3,7 +3,6 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AddGameObjectTest
     - ChangeView
-    - DeleteObj
     - List_Objects
     - List_View_Obj_Car
     - ObjetOnCar
@@ -302,9 +301,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13946}
     - Class: 114
-      Script: {instanceID: 80816}
+      Script: {instanceID: 13968}
     - Class: 114
-      Script: {instanceID: 83550}
+      Script: {instanceID: 80816}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1010,7 +1009,7 @@ ScriptsOnlyBuild:
     className: ViewCar
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 632d48cdb7e9749ee9622b40676fd34b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: List_View_Obj_Car

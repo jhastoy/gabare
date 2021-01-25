@@ -23707,8 +23707,29 @@ public:
 struct  List_View_Obj_Car_tBBC360E008156EFDE1EDA598B2DEB015BB44C8DC  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
 public:
+	// UnityEngine.GameObject List_View_Obj_Car::Button_Track
+	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___Button_Track_4;
+	// UnityEngine.GameObject List_View_Obj_Car::Button_Roof
+	GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * ___Button_Roof_5;
 
 public:
+	inline static int32_t get_offset_of_Button_Track_4() { return static_cast<int32_t>(offsetof(List_View_Obj_Car_tBBC360E008156EFDE1EDA598B2DEB015BB44C8DC, ___Button_Track_4)); }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_Button_Track_4() const { return ___Button_Track_4; }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_Button_Track_4() { return &___Button_Track_4; }
+	inline void set_Button_Track_4(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	{
+		___Button_Track_4 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___Button_Track_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of_Button_Roof_5() { return static_cast<int32_t>(offsetof(List_View_Obj_Car_tBBC360E008156EFDE1EDA598B2DEB015BB44C8DC, ___Button_Roof_5)); }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * get_Button_Roof_5() const { return ___Button_Roof_5; }
+	inline GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 ** get_address_of_Button_Roof_5() { return &___Button_Roof_5; }
+	inline void set_Button_Roof_5(GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * value)
+	{
+		___Button_Roof_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&___Button_Roof_5), (void*)value);
+	}
 };
 
 
@@ -39114,6 +39135,11 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2509[1] =
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2510;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize2510 = { sizeof (List_View_Obj_Car_tBBC360E008156EFDE1EDA598B2DEB015BB44C8DC), -1, 0, 0 };
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2510[2] = 
+{
+	List_View_Obj_Car_tBBC360E008156EFDE1EDA598B2DEB015BB44C8DC::get_offset_of_Button_Track_4(),
+	List_View_Obj_Car_tBBC360E008156EFDE1EDA598B2DEB015BB44C8DC::get_offset_of_Button_Roof_5(),
+};
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2511;
 const Il2CppTypeDefinitionSizes g_typeDefinitionSize2511 = { sizeof (ObjetOnCar_t99AB5CBA3E4153328DEF477319BE7F2C7A2B2DE9), -1, 0, 0 };
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable2511[2] = 

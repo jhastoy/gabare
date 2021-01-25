@@ -70,10 +70,10 @@ extern void Objet__ctor_m7C239894CBB9B4B278EA433BA870292EF7287D10 (void);
 extern void ObjetList__ctor_mBBC19C7E728C3EFE63462983C72EC56D4AC85EE8 (void);
 // 0x0000001B System.Void List_View_Obj_Car::Start()
 extern void List_View_Obj_Car_Start_m9B805F14F20B03C95366A8D9D070DBD3CDA41ECD (void);
-// 0x0000001C System.Void List_View_Obj_Car::.ctor()
+// 0x0000001C System.Void List_View_Obj_Car::ItemClicked(ItemOnCar)
+extern void List_View_Obj_Car_ItemClicked_m1873AE016E32EAB4A874670BF6F1C15C3A021506 (void);
+// 0x0000001D System.Void List_View_Obj_Car::.ctor()
 extern void List_View_Obj_Car__ctor_m2CB9A3F6EC86BA39C4D82006965F5A70EC92486B (void);
-// 0x0000001D System.Void ObjetOnCar::Update()
-extern void ObjetOnCar_Update_m04DE203C264567EB143213419B533859BB5225A0 (void);
 // 0x0000001E System.Void ObjetOnCar::ItemPotentielInfo(System.String,System.Int32,System.Int32,System.Int32,System.Double,System.Double,System.Double,System.Single)
 extern void ObjetOnCar_ItemPotentielInfo_m4B6CA64059AA64E6EFF8D158B2DFB766F4B73B34 (void);
 // 0x0000001F System.Void ObjetOnCar::CoffreOuToit(System.String)
@@ -1126,8 +1126,8 @@ static Il2CppMethodPointer s_methodPointers[542] =
 	Objet__ctor_m7C239894CBB9B4B278EA433BA870292EF7287D10,
 	ObjetList__ctor_mBBC19C7E728C3EFE63462983C72EC56D4AC85EE8,
 	List_View_Obj_Car_Start_m9B805F14F20B03C95366A8D9D070DBD3CDA41ECD,
+	List_View_Obj_Car_ItemClicked_m1873AE016E32EAB4A874670BF6F1C15C3A021506,
 	List_View_Obj_Car__ctor_m2CB9A3F6EC86BA39C4D82006965F5A70EC92486B,
-	ObjetOnCar_Update_m04DE203C264567EB143213419B533859BB5225A0,
 	ObjetOnCar_ItemPotentielInfo_m4B6CA64059AA64E6EFF8D158B2DFB766F4B73B34,
 	ObjetOnCar_CoffreOuToit_mAF0ED9C942ABD3FF4B601C29A727AED9189858DD,
 	ObjetOnCar__ctor_m38C269D7A70FD28C48A14BFAE9036916728F06C9,
@@ -1671,7 +1671,7 @@ static const int32_t s_InvokerIndices[542] =
 	980,
 	23,
 	23,
-	23,
+	26,
 	23,
 	1556,
 	26,
@@ -2195,9 +2195,9 @@ static const Il2CppTokenRangePair s_rgctxIndices[2] =
 static const Il2CppRGCTXDefinition s_rgctxValues[4] = 
 {
 	{ (Il2CppRGCTXDataType)2, 9165 },
-	{ (Il2CppRGCTXDataType)3, 8888 },
-	{ (Il2CppRGCTXDataType)3, 8889 },
-	{ (Il2CppRGCTXDataType)3, 8890 },
+	{ (Il2CppRGCTXDataType)3, 8891 },
+	{ (Il2CppRGCTXDataType)3, 8892 },
+	{ (Il2CppRGCTXDataType)3, 8893 },
 };
 extern const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule = 

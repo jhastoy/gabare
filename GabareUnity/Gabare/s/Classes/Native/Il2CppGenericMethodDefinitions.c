@@ -20,7 +20,7 @@ IL2CPP_EXTERN_C_END
 
 
 extern const Il2CppMethodSpec g_Il2CppMethodSpecTable[];
-const Il2CppMethodSpec g_Il2CppMethodSpecTable[8891] = 
+const Il2CppMethodSpec g_Il2CppMethodSpecTable[8894] = 
 {
 	{ 333, -1, 1 } /* System.Void System.ThrowHelper::IfNullAndNullsAreIllegalThenThrow<System.Object>(System.Object,System.ExceptionArgument) */,
 	{ 337, -1, 1 } /* System.Collections.ObjectModel.ReadOnlyCollection`1<T> System.Array::AsReadOnly<System.Object>(T[]) */,
@@ -2336,8 +2336,11 @@ const Il2CppMethodSpec g_Il2CppMethodSpecTable[8891] =
 	{ 8701, 490, -1 } /* !0 System.Collections.Generic.List`1<List_Objects/Objet>::get_Item(System.Int32) */,
 	{ 609, 0, -1 } /* System.Void System.Action`1<System.Int32>::.ctor(System.Object,System.IntPtr) */,
 	{ 15620, -1, 0 } /* System.Void ButtonExtension::AddEventListener<System.Int32>(UnityEngine.UI.Button,T,System.Action`1<T>) */,
-	{ 10571, -1, 617 } /* !!0 UnityEngine.Component::GetComponent<UnityEngine.Light>() */,
+	{ 10571, -1, 551 } /* !!0 UnityEngine.Component::GetComponent<UnityEngine.UI.Button>() */,
+	{ 609, 491, -1 } /* System.Void System.Action`1<ItemOnCar>::.ctor(System.Object,System.IntPtr) */,
+	{ 15620, -1, 491 } /* System.Void ButtonExtension::AddEventListener<ItemOnCar>(UnityEngine.UI.Button,T,System.Action`1<T>) */,
 	{ 8698, 491, -1 } /* System.Int32 System.Collections.Generic.List`1<ItemOnCar>::get_Count() */,
+	{ 10571, -1, 617 } /* !!0 UnityEngine.Component::GetComponent<UnityEngine.Light>() */,
 	{ 8706, 491, -1 } /* System.Void System.Collections.Generic.List`1<ItemOnCar>::Add(!0) */,
 	{ 8693, 491, -1 } /* System.Void System.Collections.Generic.List`1<ItemOnCar>::.ctor() */,
 	{ 15524, -1, 618 } /* !!0 UnityEngine.JsonUtility::FromJson<DimensionCar>(System.String) */,

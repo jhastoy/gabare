@@ -81,27 +81,6 @@ public class AddGameObjectTest : MonoBehaviour
 
             }  
         }
-        if (Input.GetMouseButtonDown(0))
-        {
-            if (GameObject.Find("DataToSave") == null)
-            {
-                GameObject DataToSave = new GameObject();
-                DataToSave.name = "DataToSave";
-                DataToSave.AddComponent<ObjetOnCar>();
-                DataToSave.GetComponent<ObjetOnCar>().where = "Back";
-                SceneManager.LoadScene(SceneToLoad);
-                DontDestroyOnLoad(DataToSave);
-            }
-            else
-            {
-                GameObject.Find("DataToSave").GetComponent<ObjetOnCar>().where = "Back";
-                SceneManager.LoadScene(SceneToLoad);
-                DontDestroyOnLoad(GameObject.Find("DataToSave"));
-            }
-
-            
-        }
-
 
 
     }

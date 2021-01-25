@@ -47,7 +47,6 @@
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="AddGameObjectTest" preserve="nothing"/>
 		<type fullname="ChangeView" preserve="nothing"/>
-		<type fullname="DeleteObj" preserve="nothing"/>
 		<type fullname="List_Objects" preserve="nothing"/>
 		<type fullname="List_View_Obj_Car" preserve="nothing"/>
 		<type fullname="ObjetOnCar" preserve="nothing"/>
