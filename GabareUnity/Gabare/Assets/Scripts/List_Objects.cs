@@ -64,18 +64,13 @@ public class List_Objects : MonoBehaviour
 		public List<Objet> objet;
 	}
 
-	//public TextAsset textJSON;
-
-
 
 	public ObjetList myObjetsList = new ObjetList();
 
 
 	string chemin, jsonString;
 
-	/// <summary>
-	/// ///
-	/// </summary>
+
 
 
 
@@ -95,13 +90,13 @@ public class List_Objects : MonoBehaviour
 		{
 
 			g = Instantiate(buttonTemplate, transform);
-			g.transform.GetChild(0).GetComponent<Text>().text = myObjetsList.objet[i].Largeur.ToString();
-			g.transform.GetChild(1).GetComponent<Text>().text = myObjetsList.objet[i].Nom;
-			g.transform.GetChild(2).GetComponent<Text>().text = myObjetsList.objet[i].Description;
+			g.transform.GetChild(0).GetComponent<Text>().text = myObjetsList.objet[i].Nom;
+			g.transform.GetChild(1).GetComponent<Text>().text = myObjetsList.objet[i].Description;
+			g.transform.GetChild(2).GetComponent<Text>().text = "Longueur : " + myObjetsList.objet[i].Longueur.ToString() + " cm";
+			g.transform.GetChild(3).GetComponent<Text>().text = "Largeur : " + myObjetsList.objet[i].Largeur.ToString() + " cm";
+			g.transform.GetChild(4).GetComponent<Text>().text = "Hauteur : " + myObjetsList.objet[i].Hauteur.ToString() + " cm";
 
-			/*g.GetComponent <Button> ().onClick.AddListener (delegate() {
-				ItemClicked (i);
-			});*/
+			
 			g.GetComponent<Button>().AddEventListener(i, ItemClicked);
 		}
 
@@ -123,11 +118,15 @@ public class List_Objects : MonoBehaviour
 		double localy;
 		double localz;
 
-        if (myObjetsList.objet[itemIndex].Nom == "Velo")
+		int orientation = 0;
+
+		//Valeurs entrées en dur pour le démonstrateur
+        if (myObjetsList.objet[itemIndex].Nom == "Velo") 
         {
 			localx = -1.83;
 			localy = -0.24;
 			localz = -6.47;
+			orientation = 90;
         }
         else
         {
@@ -136,7 +135,7 @@ public class List_Objects : MonoBehaviour
 			localz = 0;
         }
 
-		GameObject.Find("DataToSave").GetComponent<ObjetOnCar>().ItemPotentielInfo(myObjetsList.objet[itemIndex].Nom, 3, 3, 3, localx, localy, localz, 0);
+		GameObject.Find("DataToSave").GetComponent<ObjetOnCar>().ItemPotentielInfo(myObjetsList.objet[itemIndex].Nom, myObjetsList.objet[itemIndex].Longueur, myObjetsList.objet[itemIndex].Largeur, myObjetsList.objet[itemIndex].Hauteur, localx, localy, localz, orientation);
 		SceneManager.LoadScene("Personnalisation");
 		DontDestroyOnLoad(GameObject.Find("DataToSave"));
 	}

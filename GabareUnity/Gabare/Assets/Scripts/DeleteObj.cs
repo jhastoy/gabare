@@ -7,17 +7,10 @@ using UnityEngine.EventSystems;
 
 
 
-
+//Suppression d'un équiquement sur le véhicule en cliquant sur la croix rouge
 public class DeleteObj : MonoBehaviour
 {
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.touchCount > 0)

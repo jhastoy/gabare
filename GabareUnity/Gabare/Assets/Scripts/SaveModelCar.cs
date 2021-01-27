@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SaveModelCar : MonoBehaviour
@@ -13,7 +11,7 @@ public class SaveModelCar : MonoBehaviour
     public GameObject InputLongueur, Inputlargeur, InputHauteur;
 
 
-    public GameObject Warning;
+    public GameObject Warning; //GameObject Text d'un message d'erreur d'input d'entrée par l'utilisateur
 
     string chemin, jsongString;
 
@@ -42,7 +40,8 @@ public class SaveModelCar : MonoBehaviour
             {
                 GameObject.Find("CarDim").GetComponent<CarDim>().CarDimension(dimCar.Longueur, dimCar.Largeur, dimCar.Hauteur);
             }
-            else
+            else             //Creation d'un GameObject Empty avec un script pour enregistrer les données du véhicule et les faire passer de scène en scène (objet non détruit)
+
             {
                 GameObject go = new GameObject();
                 go.name = "CarDim";
@@ -57,6 +56,8 @@ public class SaveModelCar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //mise à jour des valeurs du véhicules
+        //en cas de changement, apparition du bouton "Enregistrer)
         if(InputLongueur.GetComponent<InputField>().text != dimCar.Longueur.ToString() || Inputlargeur.GetComponent<InputField>().text != dimCar.Largeur.ToString()|| InputHauteur.GetComponent<InputField>().text != dimCar.Hauteur.ToString())
         {
             if (Int32.TryParse(InputLongueur.GetComponent<InputField>().text, out dimCar.Longueur) && Int32.TryParse(Inputlargeur.GetComponent<InputField>().text, out dimCar.Largeur) && Int32.TryParse(InputHauteur.GetComponent<InputField>().text, out dimCar.Hauteur))
@@ -67,12 +68,12 @@ public class SaveModelCar : MonoBehaviour
             }
             else
             {
-                Warning.SetActive(true);
+                Warning.SetActive(true); // message d'erreur si mauvaise entrée de l'utilisateur
             }
         }
 
 
-
+        //Sauvegarde dans le fichier JSON pour conserver les données
         if (Input.touchCount > 0)
         {
             PointerEventData pointer = new PointerEventData(EventSystem.current);
@@ -86,12 +87,14 @@ public class SaveModelCar : MonoBehaviour
                 GameObject.Find("CarDim").GetComponent<CarDim>().CarDimension(dimCar.Longueur, dimCar.Largeur, dimCar.Hauteur);
                 jsongString = JsonUtility.ToJson(dimCar);
                 File.WriteAllText(chemin, jsongString);
-                //SceneManager.LoadSceneAsync("Home");
 
             }
         }
     }
 }
+
+//Class qui sert à extraire le fichier JSON
+
 
 public class DimensionCar
 {

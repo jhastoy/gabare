@@ -4,17 +4,19 @@ using UnityEngine;
 
 public class ObjetOnCar : MonoBehaviour
 {
-
+    //Liste des équipements présents sur la voiture
     public List<ItemOnCar> ItemsOnCars = new List<ItemOnCar>();
-    public string where;
+    public string where; //variable qui indique si l'objet se trouve sur le toit ou au niveau du coffre
 
    
-
+    //Ajout de l'équipement selectionné à la liste des équipements présents sur le véhicule
     public void ItemPotentielInfo(string name, int longueur, int largeur, int hauteur, double localx, double localy, double localz, float rotation)
     {
         ItemOnCar NewItem = new ItemOnCar(name, longueur, largeur, hauteur, localx, localy, localz, rotation, where);
         ItemsOnCars.Add(NewItem);
     }
+
+    
     public void CoffreOuToit(string name)
     {
         if(name== "Add_Button_Track")
@@ -29,6 +31,8 @@ public class ObjetOnCar : MonoBehaviour
     
 }
 
+
+//Class des objets sur 
 [SerializeField]
 public class ItemOnCar
 {
